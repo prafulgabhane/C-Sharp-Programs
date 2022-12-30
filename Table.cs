@@ -14,7 +14,7 @@ namespace ConsoleApp1
             int num = Convert.ToInt32(Console.ReadLine());
             int i;
             Console.WriteLine(" Table for {0}",num);
-            for (i = 1; i <= 10; i++)
+            for (i = 1; i <= 10; i++) 
             {
                 Console.Write(" {0} X {1} = {2}\n",num,i,i*num);
             }
